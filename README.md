@@ -2,9 +2,9 @@
 HomeWork 1.
 
 Создать ветку от существующего проекта
-gitHub: https://github.com/AndesTechConsulting3/JavaSE-
+gitHub: https://github.com/AndesTechConsulting3/JavaSE-Day03-HomeWork.git
 
-Day03-HomeWork.git
+Ветка должна содержать строку rfb, например VasilyPetriv-rfb-brach-home1.
 
 Создать класс Customer
 Создать поля firstName, secondName, address.
