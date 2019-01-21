@@ -32,6 +32,9 @@ public class Account {
             this.balance = account;
     }
 
+    public Account() {
+    }
+
     public Account(int id, int balance) {
         this.id = id;
         this.balance = balance;
