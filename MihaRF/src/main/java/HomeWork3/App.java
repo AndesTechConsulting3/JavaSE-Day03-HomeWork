@@ -11,7 +11,12 @@ public class App
         Customer customer = new Customer("Sheldon","Cooper","USA, CA, Pasadena");
         customer.printCustomerInfo();
 
-        Account account = new Account("12345678900987654321", 100500, customer);
+        Account account = new Account("12345678900987654321", 10500, customer);
         account.printAccountInfo();
+        System.out.println("--------------------------------");
+        System.out.println(account.printAccountInfoFull());
+        System.out.println("--------------------------------");
+        account.setBalance(100500);
+        System.out.println(account.getBalance());//ту мач, не присвоено, потому выводится прошлое присвоенное значение
     }
 }

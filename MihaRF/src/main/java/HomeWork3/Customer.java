@@ -4,6 +4,7 @@ public class Customer {
 
     private String firstName;
     private String secondName;
+    private String address;
 
     public String getFirstName() {
         return firstName;
@@ -29,9 +30,12 @@ public class Customer {
         this.address = address;
     }
 
-    private String address;
+    public Customer(){
+        System.out.println("++ ctor, o: " + this);
+    }
 
     public Customer(String firstName, String secondName, String address) {
+        this();
         this.firstName = firstName;
         this.secondName = secondName;
         this.address = address;
