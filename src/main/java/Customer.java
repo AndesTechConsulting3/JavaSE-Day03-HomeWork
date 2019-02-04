@@ -1,5 +1,11 @@
 public class Customer {
 
+    String firstName, secondName, adress;
+
+    public Customer() {
+
+    }
+
     public String getFirstName() {
         return firstName;
     }
@@ -32,8 +38,6 @@ public class Customer {
                 ", adress='" + adress + '\'' +
                 '}';
     }
-
-    String firstName, secondName, adress;
 
 
 }

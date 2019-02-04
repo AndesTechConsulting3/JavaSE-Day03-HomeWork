@@ -1,6 +1,13 @@
 public class Account {
 
 
+    Customer customer = new Customer();
+
+    public Account(Customer customer) {
+        this.customer = customer;
+
+    }
+
     public Customer getCustomer() {
         return customer;
     }
@@ -9,7 +16,6 @@ public class Account {
         this.customer = customer;
     }
 
-    Customer customer = new Customer();
 
 }
 
